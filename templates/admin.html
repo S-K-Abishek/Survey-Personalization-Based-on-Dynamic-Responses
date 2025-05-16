@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Admin View{% endblock %}
+{% block content %}
+<h1>Survey Responses</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Q1</th>
+            <th>Q2</th>
+            <th>Q3</th>
+            <th>Q4</th>
+            <th>Q5</th>
+            <th>Q6</th>
+            <th>Q7</th>
+            <th>Q8</th>
+            <th>Q9</th>
+            <th>Q10</th>
+            <th>Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for response in responses %}
+        <tr>
+            <td>{{ response.id }}</td>
+            <td>{{ response.q1 }}</td>
+            <td>{{ response.q2 }}</td>
+            <td>{{ response.q3 }}</td>
+            <td>{{ response.q4 }}</td>
+            <td>{{ response.q5 }}</td>
+            <td>{{ response.q6 }}</td>
+            <td>{{ response.q7 }}</td>
+            <td>{{ response.q8 }}</td>
+            <td>{{ response.q9 }}</td>
+            <td>{{ response.q10 }}</td>
+            <td>{{ response.comments }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Question 4{% endblock %}
+{% block content %}
+<h1>Would you like to see additional features? (Yes/No)</h1>
+<form method="post">
+    <label>
+        <input type="radio" name="q4" value="Yes"> Yes
+    </label><br>
+    <label>
+        <input type="radio" name="q4" value="No"> No
+    </label><br>
+    <button type="submit">Next</button>
+</form>
+{% endblock %}
