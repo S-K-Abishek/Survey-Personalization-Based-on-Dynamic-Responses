@@ -15,7 +15,7 @@ This project is a Flask web application designed to create **dynamic and persona
 
 - **Flask** – for routing and web framework
 - **SQLAlchemy** – for ORM and database interaction
-- **HTML/CSS (Jinja templates)** – for UI rendering
+- **HTML/CSS** – for UI rendering
 - **SQLite** – as the database backend
 
 ## 🧪 Setup Instructions
@@ -23,7 +23,6 @@ This project is a Flask web application designed to create **dynamic and persona
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/S-K-Abishek/Survey-Personalization-Based-on-Dynamic-Responses.git
-   cd dynamic-survey-flask
    ```
 
 2. **Install dependencies**:
@@ -44,12 +43,24 @@ This project is a Flask web application designed to create **dynamic and persona
 - If "No" → skip certain questions
 - Based on numerical and text inputs, next questions vary dynamically
 
-## 🎥 Demo Video
+## 🎬 Demo Video
 
-<video width="640" height="360" controls>
-  <source src="Consice Video - Survey Personalization Based on Dynamic Responses.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+📹 [Click here to watch the demo video](./Consice%20Video%20-%20Survey%20Personalization%20Based%20on%20Dynamic%20Responses.mp4
+)
+
+Or download it and play it locally.
+
+## 📄 Project Report
+
+📘 You can [view the full project report here](./Report%20-%20Survey%20Personalization%20Based%20on%20Dynamic%20Responses.pdf
+)
+
+The report outlines the following key areas:
+
+- Flask setup for web routing and form rendering
+- SQLAlchemy for managing dynamic survey responses
+- Dynamic question flow using user input
+- Recommendations for scalability, UI improvements, and analytics
 
 ## 📈 Future Enhancements
 
@@ -61,7 +72,7 @@ This project is a Flask web application designed to create **dynamic and persona
 ## 👨‍💻 Author
 
 **Abishek S K**   
-**shekabi626210@gmail.com**
+**shekabi626210@gmail.com**   
 Project:  *Survey Personalization Based on Dynamic Responses*
 
 ## 📜 License
